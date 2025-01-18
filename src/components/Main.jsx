@@ -4,6 +4,7 @@ import '../App.css'
 import IntroCard from './IntroCard';
 import styled from 'styled-components';
 import AboutMe from './AboutMe';
+import Skills from './Skills';
 
 function Main() {
 
@@ -11,6 +12,7 @@ function Main() {
     <Container>
         <IntroCard />
         <AboutMe />
+        <Skills />
     </Container>
   )
 }
