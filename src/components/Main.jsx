@@ -3,12 +3,14 @@ import viteLogo from '/vite.svg'
 import '../App.css'
 import IntroCard from './IntroCard';
 import styled from 'styled-components';
+import AboutMe from './AboutMe';
 
 function Main() {
 
   return (
     <Container>
         <IntroCard />
+        <AboutMe />
     </Container>
   )
 }
