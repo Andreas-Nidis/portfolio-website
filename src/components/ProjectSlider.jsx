@@ -39,7 +39,7 @@ const ProjectSlider = (props) => {
                 </Wrap>
                 <Wrap>
                     <a>
-                        <img src="/images/project-thumbnails/brick-breaker.png" alt="Phaser Game (in development)" />
+                        <img src="/images/project-thumbnails/brick-breaker-thumbnail.png" alt="Phaser Game (in development)" />
                     </a>
                     <div>
                         <h3>Classic Brick Breaker</h3>
