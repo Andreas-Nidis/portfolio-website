@@ -7,7 +7,7 @@ const Skills = (props) => {
                 <h2>Skills</h2>
             </Title>
             <SkillList>
-                <ul class="skill-list">
+                <ul>
                     <li><img src="/images/skill-icons/HTML5.png" alt="HTML5"/>HTML5</li>
                     <li><img src="/images/skill-icons/CSS.png" alt="CSS"/>CSS</li>
                     <li><img src="/images/skill-icons/Javascript.png" alt="Javascript"/>Javascript</li>
@@ -25,12 +25,14 @@ const Skills = (props) => {
 
 const Container = styled.div`
     position: relative;
+    margin-top: 20px;
 `;
 
 const Title = styled.div`
     position: relative;
-    padding: 0px 20px;
+    padding: 0px 30px;
     display: flex;
+    justify-content: center;
 
     h2 {
         font-family: 'Monoton', serif;
@@ -40,7 +42,6 @@ const Title = styled.div`
     @media (max-width: 968px) {
         margin-top: 10px;
         padding-top: 50px;
-        justify-content: center;
     }
 `;
 
@@ -52,7 +53,7 @@ const SkillList = styled.div`
     ul {
         padding: 0;
         display: flex;
-        flex-direction: row;
+        justify-content: center;
 
         li {
             margin: 0.3rem;

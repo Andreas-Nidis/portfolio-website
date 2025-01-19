@@ -25,6 +25,7 @@ const Title = styled.div`
     position: relative;
     padding: 0px 30px;
     display: flex;
+    justify-content: center;
 
     h2 {
         font-family: 'Monoton', serif;
@@ -34,7 +35,6 @@ const Title = styled.div`
     @media (max-width: 968px) {
         margin-top: 100px;
         padding-top: 50px;
-        justify-content: center;
     }
 `;
 
@@ -44,7 +44,7 @@ const Description = styled.div`
 
     p {
         font-size: 20px;
-        text-align: justify;
+        text-align: center;
     }
 `;
 

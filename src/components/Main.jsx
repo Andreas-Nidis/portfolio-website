@@ -5,14 +5,16 @@ import IntroCard from './IntroCard';
 import styled from 'styled-components';
 import AboutMe from './AboutMe';
 import Skills from './Skills';
+import ProjectSlider from './ProjectSlider';
 
 function Main() {
 
   return (
     <Container>
         <IntroCard />
-        <AboutMe />
+        <ProjectSlider />
         <Skills />
+        <AboutMe />
     </Container>
   )
 }

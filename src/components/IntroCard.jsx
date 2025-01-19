@@ -9,7 +9,7 @@ const IntroCard = (props) => {
                 </Title>
                 <Bar>
                     <Photo>
-                        <img src="/images/portrait/photo.png" alt="Andreas Photo"/>
+                        <img src="/images/portrait/photo.png" alt="Andreas' Photo"/>
                     </Photo>
                 </Bar>
             </Container>
@@ -40,6 +40,7 @@ const Container = styled.div`
 
     @media (max-width: 968px) {
         flex-direction: column;
+        height: 550px;
     }
 `;
 
