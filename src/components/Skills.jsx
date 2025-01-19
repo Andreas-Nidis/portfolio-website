@@ -41,14 +41,13 @@ const Title = styled.div`
 
     @media (max-width: 968px) {
         margin-top: 10px;
-        padding-top: 50px;
+        padding-top: 20px;
     }
 `;
 
 const SkillList = styled.div`
     position: relative;
     width: 100%;
-    height: 100px;
 
     ul {
         padding: 0;
@@ -68,6 +67,11 @@ const SkillList = styled.div`
             img {
                 width: 2.5rem;
             }
+        }
+
+        @media (max-width: 968px) {
+            flex-wrap: wrap;
+            margin: 10px;
         }
     }
 `;

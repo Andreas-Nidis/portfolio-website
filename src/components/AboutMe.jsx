@@ -34,8 +34,8 @@ const Title = styled.div`
     }
 
     @media (max-width: 968px) {
-        margin-top: 100px;
-        padding-top: 50px;
+        margin-top: 10px;
+        padding-top: 20px;
     }
 `;
 
