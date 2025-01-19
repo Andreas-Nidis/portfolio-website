@@ -25,23 +25,35 @@ const ProjectSlider = (props) => {
                     </a>
                     <div>
                         <h3>Disney+ Clone</h3>
-                        <p>Test text</p>
+                        <p>Disney+ Clone is a fully-responsive website inspired by Disney+. Built using HTML, CSS, JavaScript, React, Redux, and integrated with a movie database API (Firebase), this project allows users to browse and view detailed information about movies and TV shows. <br/><br/> It demonstrates my skills in creating user-friendly interfaces and utilise APIs, while focusing on clean design and smooth functionality.</p>
                     </div>
                 </Wrap>
                 <Wrap>
                     <a href="https://woodit.netlify.app">
                         <img src="/images/project-thumbnails/woodit-thumbnail.png" alt="Wood Carving Website" />
                     </a>
+                    <div>
+                        <h3>WoodIt</h3>
+                        <p>WoodIt is a single-page web application built with React, designed to showcase wood carving work and allow users to make custom requests. While the website currently features placeholder images and descriptions, it serves as a conceptual platform for sharing my future wood carving creations and receiving commissions. <br/><br/> This project highlights my ability to create dynamic, interactive web applications with React independently for specific purposes.</p>
+                    </div>
                 </Wrap>
                 <Wrap>
                     <a>
-                        <img src="" alt="Phaser Game (in development)" />
+                        <img src="/images/project-thumbnails/phaser-game-thumbnail.png" alt="Phaser Game (in development)" />
                     </a>
+                    <div>
+                        <h3>Phaser Game</h3>
+                        <p>Currently in development!</p>
+                    </div>
                 </Wrap>
                 <Wrap>
                     <a>
-                        <img src="" alt="Icy Road Warning Website (tba)" />
+                        <img src="/images/project-thumbnails/icey-roads-thumbnail.png" alt="Icy Road Warning Website (tba)" />
                     </a>
+                    <div>
+                        <h3>Icey Roads</h3>
+                        <p>Icey Roads will use a combination of varaibles, such as precipitation, humidity, temperature, weather alerts, etc., to determine how icey the roads are in a users area and whether they are fit to drive on. <br/><br/> To be announced!</p>
+                    </div>
                 </Wrap>
             </Carousel>
         </Container>
@@ -72,21 +84,10 @@ const Title = styled.div`
 
 const Carousel = styled(Slider)`
     width: 70%;
-
-    & > button {
-        opacity: 0;
-        height: 100%;
-        width: 5vw;
-        z-index: 2;
-
-        &:hover {
-            opacity: 1;
-            transition: opacity 0.2s ease 0s;
-        }
-    }
+    position: relative;
 
     ul.slick-dots {
-        bottom: -10px;
+        bottom: 0px;
     }
 
     ul li button {
@@ -100,16 +101,24 @@ const Carousel = styled(Slider)`
         color: #ffffff;
     }
 
+    & > button {
+        opacity: 0;
+        height: 100%;
+        width: 5vw;
+        z-index: 1;
+
+        &:hover {
+            opacity: 0;
+            transition: opacity 0.2s ease 0s;
+        }
+    }
+
     .slick-list {
         overflow: initial;
     }
 
-    .slick-prev {
-        left: -75px;
-    }
-
-    .slick-next {
-        right: -75px;
+    .slick-prev, .slick-next {
+        display: hidden;
     }
 `;
 
@@ -122,11 +131,13 @@ const Wrap = styled.div`
     a {
         border-radius: 8px;
         box-shadow: rgb(0 0 0 / 39%) 0px 26px 30px -10px, 
-            rgb(0 0 0 / 73%) 0px 16px 10px -10px;
+            rgb(0 0 0 / 33%) 0px 16px 10px -10px;
         cursor: pointer;
         display: block;
         position: relative;
         overflow: hidden;
+        margin: 0 20px;
+        
 
         img {
             width: 100%;
@@ -148,14 +159,15 @@ const Wrap = styled.div`
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        text-align: center;
         margin-top: 20px;
 
         h3 {
-            /* font-size: 100px; */
-            margin: 0px;
+            font-size: 22px;
         }
         p {
-            margin: 0px;
+            margin: 50px;
+            margin-top: 10px;
         }
     }
 `;
