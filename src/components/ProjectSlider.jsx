@@ -10,7 +10,7 @@ const ProjectSlider = (props) => {
         speed: 500,
         slideToShow: 1,
         slideToScroll: 1,
-        // autoplay: true,
+        autoplay: true,
     }
 
     return (
