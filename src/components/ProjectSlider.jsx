@@ -52,7 +52,7 @@ const ProjectSlider = (props) => {
                     </a>
                     <div>
                         <h3>Icey Roads</h3>
-                        <p>Icey Roads will use a combination of varaibles, such as precipitation, humidity, temperature, weather alerts, etc., to determine how icey the roads are in a users area and whether they are fit to drive on. <br/><br/> To be announced!</p>
+                        <p>Icey Roads will use a combination of varaibles, such as precipitation, humidity, temperature, weather alerts, etc., to determine how icey the roads are in a user's area, and whether they are fit to drive on. <br/><br/> To be announced!</p>
                     </div>
                 </Wrap>
             </Carousel>
