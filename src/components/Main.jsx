@@ -6,6 +6,7 @@ import styled from 'styled-components';
 import AboutMe from './AboutMe';
 import Skills from './Skills';
 import ProjectSlider from './ProjectSlider';
+import Socials from './Socials';
 
 function Main() {
 
@@ -15,6 +16,7 @@ function Main() {
         <ProjectSlider />
         <Skills />
         <AboutMe />
+        <Socials />
     </Container>
   )
 }
