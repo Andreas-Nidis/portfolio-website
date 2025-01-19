@@ -64,9 +64,11 @@ const SkillList = styled.div`
             align-items: center;
             width: 6.5rem;
             color: #212121;
+            font-size: 16px;
 
             img {
-                width: 2.5rem;
+                width: 40px;
+                height: 40px;
             }
         }
 
