@@ -16,6 +16,7 @@ const Skills = (props) => {
                     <li><img src="/images/skill-icons/Git.png" alt="Git"/>Git</li>
                     <li><img src="/images/skill-icons/Python.png" alt="Python3"/>Python 3</li>
                     <li><img src="/images/skill-icons/PostgreSQL.png" alt="PostgreSQL"/>PostgreSQL</li>
+                    <li><img src="/images/skill-icons/phaser.png" alt="Phaser.js"/>Phaser.js</li>
                 </ul>
             </SkillList>
         </Container>
