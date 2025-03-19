@@ -20,6 +20,15 @@ const ProjectSlider = (props) => {
             </Title>
             <Carousel {...settings}>
                 <Wrap>
+                    <a href="https://pern-store-project.onrender.com">
+                        <img src="/images/project-thumbnails/pinventory-thumbnail.png" alt="Pinventory" />
+                    </a>
+                    <div>
+                        <h3>Pinventory</h3>
+                        <p>Pinventory is a PERN web application built and designed to enable users to keep track of what items they own in their house, garage, warehouse, wherever! <br/><br/> This project highlights my ability to create a full-stack application by handling the creation of both the API and client-facing, interactive part of a project using React <br/><br/> Note that this project uses the free services of <a>render.com</a>, so loading the website might take a while at first.</p>
+                    </div>
+                </Wrap>
+                <Wrap>
                     <a href="https://disneyplus-clone-portfolio.netlify.app">
                         <img src="/images/project-thumbnails/disneyplus-clone-thumbnail.png" alt="DisneyPlus Clone" />
                     </a>
